@@ -1,0 +1,31 @@
+{
+  "name": "torium",
+  "version": "0.0.1",
+  "description": "The torium, tor browser based on Electron (Node.js + Chromium).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misha-marinenko/torium.git"
+  },
+  "keywords": [
+    "electron",
+    "tor",
+    "nodejs",
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "author": "Misha Marinenko",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/misha-marinenko/torium/issues"
+  },
+  "homepage": "https://github.com/misha-marinenko/torium#readme",
+  "dependencies": {
+    "electron": "^1.8.2",
+    "electron-proxy-agent": "^1.0.2"
+  }
+}
